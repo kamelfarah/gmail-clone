@@ -1,0 +1,25 @@
+.sidebar{
+    flex: 0.25;
+    max-width: 300px;
+}
+.sidebar>.sidebar__compose{
+    border-radius: 10px;
+    background-color: #C2E7FF;
+    margin: 15px;
+    color:black;
+    padding: 10px 35px;
+    font-size: 10px;
+}
+
+.sidebar>.sidebar__compose:hover{
+    box-shadow: 5px 0px 5px 0px rgba(0,0,0,.2);
+
+}
+
+.sidebar__footerIcons{
+    display:flex;
+    justify-content: center;
+}
+
+
+
